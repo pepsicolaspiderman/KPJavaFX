@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="300.0" prefWidth="300.0">
+         <children>
+            <Button layoutX="124.0" layoutY="235.0" mnemonicParsing="false" onAction="#enter" text="Enter" />
+            <TextField fx:id="login" layoutX="124.0" layoutY="106.0" />
+            <TextField fx:id="pass" layoutX="124.0" layoutY="150.0" />
+            <Label fx:id="loginn" layoutX="56.0" layoutY="110.0" prefHeight="19.0" prefWidth="38.0" text="Login" />
+            <Label fx:id="password" layoutX="56.0" layoutY="150.0" prefHeight="19.0" prefWidth="50.0" text="Password" />
+            <Label fx:id="enter" layoutX="85.0" layoutY="200.0" prefHeight="19.0" prefWidth="170" text="Type the login and password" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
